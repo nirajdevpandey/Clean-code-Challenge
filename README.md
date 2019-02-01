@@ -66,7 +66,7 @@ What temperature was best preferred for the ride
 
 
 #### Feature Engineering
-You see! the columns "season","holiday","workingday" and "weather" should be of "categorical" data type.But the current data type is "int" for those columns. Let us transform the dataset in the following ways so that we can get started up with our `EDA` (Exloratory Data Analysis). 
+You see! the columns "season","holiday","workingday" and "weather" should be of "categorical" data type.But the current data type is "int" for those columns. Let us transform the dataset in the following ways so that we can get started up with our `EDA` (Exploratory Data Analysis). 
 ```python
 categoryVariableList = ["weekday",
                         "month",
