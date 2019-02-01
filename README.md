@@ -1,5 +1,5 @@
 ### Clean-code-Challenge
-The repository contains the solution of BlueYonder GmbH's challenge for data scientist position. Implementing a regression model on bike-sharing data-set to predict count of future rentals.
+The repository contains the solution of BlueYonder GmbH's challenge for data scientist position. Implementing a regression model on bike-sharing data-set to predict count of future rentals. The Code Quality matters a lot here therefore, Pep8 was followed to make script more pythonic :)
 ***
 Table of Contents
 =================
@@ -35,6 +35,7 @@ It is quit obvious that there would be less holiday and more of normal day in 2 
 Working day is having sattistics. `remember` in plots `0:False`and `1:True`
 
 ![image](https://github.com/nirajdevpandey/Clean-code-Challenge/blob/master/plots/working_day-vs-count.png)
+
 ***
 Weather Count is as follows 
 * weather
@@ -106,6 +107,7 @@ Looking at the following plot we can get some useful information.
 >Above pattern is not observed on "Saturday" and "Sunday".More people tend to rent bicycle between 10AM and 4PM.
 ***
 
+After few more feature selection (see BlueYonder.py) We are all set to go for chosing the right Machine Learning model and evaluate it's performance. 
 
 
 
