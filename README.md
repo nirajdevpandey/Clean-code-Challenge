@@ -51,10 +51,10 @@ Weather Count is as follows
   
   4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
 
-***
-![image](https://github.com/nirajdevpandey/Clean-code-Challenge/blob/master/plots/weather-vs-count.png)
 
-Which nonth had the highest demand 
+![image](https://github.com/nirajdevpandey/Clean-code-Challenge/blob/master/plots/weather-vs-count.png)
+***
+Which month had the highest demand 
 ![image](https://github.com/nirajdevpandey/Clean-code-Challenge/blob/master/plots/month-vs-count.png)
 ***
 Which was the peak hour for renting the bike
