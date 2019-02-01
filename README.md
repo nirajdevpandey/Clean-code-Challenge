@@ -112,15 +112,11 @@ Looking at the following plot we can get some useful information.
 
 After few more feature selection (see BlueYonder.py) We are all set to go for chosing the right Machine Learning model and evaluate it's performance. 
 
-
-
-
-
-
-
-
-
-
-
-
-
+### How to run
+```
+1. clone this repository
+2. Go to the cloned repository. 
+3. open cmd in the same repository
+4. type> python BlueYonder.py
+```
+Now you can see the top hundred prediction and the loss of the model.
