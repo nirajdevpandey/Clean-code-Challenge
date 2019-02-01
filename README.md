@@ -53,9 +53,23 @@ What temperature was best preferred for the ride
 
 #### Feature Engineering
 You see! the columns "season","holiday","workingday" and "weather" should be of "categorical" data type.But the current data type is "int" for those columns. Let us transform the dataset in the following ways so that we can get started up with our `EDA` (Exloratory Data Analysis). 
+```python
+categoryVariableList = ["weekday",
+                        "month",
+                        "season",
+                        "weather",
+                        "holiday",
+                        "workingday"]
+
+for var in categoryVariableList:
+    data[var] = data[var].astype("category")
+```
+![image](https://github.com/nirajdevpandey/Clean-code-Challenge/blob/master/plots/data_types.png)
 ***
 ### Missing Value Analysis
 Let's see if there is any `missing` on `NA` values in the entire dataset. SO, we dont have any missing value in the dataset. Yeeey...!!
+![image](https://github.com/nirajdevpandey/Clean-code-Challenge/blob/master/plots/missing_values.png)
+
 ***
 #### Correlation Analysis
 
