@@ -69,7 +69,6 @@ def drop_useless_features(DataFrame, features):
     Drop specified list of features
     """
     DataFrame.drop(features, inplace=True, axis=1)
-
     if features is None:
         raise FeatureNotProvided('Please provide the list of feature which you want to drop')
     return DataFrame
@@ -106,12 +105,10 @@ def train_model(x_train, y_train):
 
 def test_model(saved_model, X_test):
     loaded_model = pickle.load(open(saved_model, 'rb'))
-
     try:
         loaded_model
     except:
         raise TrainModelYourself("The loaded model is not found, please train your model by using 'Fit' function")
-
     result = loaded_model.predict(X_test)
     return result
 
