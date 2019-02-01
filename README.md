@@ -19,13 +19,18 @@ Bike sharing systems are a means of renting bicycles where the process of obtain
 #### Data Summary
 
 Here you can see what is inside the data
+![image](https://github.com/nirajdevpandey/Clean-code-Challenge/blob/master/plots/Screenshot%20from%202019-02-01%2015-37-37.png)
 ***
 #### Simple Visualization Of Variables number Count
 all 4 Seasons seem to have eqaul count
+![image](https://github.com/nirajdevpandey/Clean-code-Challenge/blob/master/plots/season_count.png)
 ***
-It is quit obvious that there would be less holiday and more of working day in 2 years of time. 
+It is quit obvious that there would be less holiday and more of normal day in 2 years of time. 
+![image](https://github.com/nirajdevpandey/Clean-code-Challenge/blob/master/plots/holiday-vs-count.png)
 ***
 Working day is having sattistics. `remember` in plots `0:False`and `1:True`
+
+![image](https://github.com/nirajdevpandey/Clean-code-Challenge/blob/master/plots/working_day-vs-count.png)
 ***
 Weather Count is as follows 
 `1:spring`
@@ -33,11 +38,16 @@ Weather Count is as follows
 `3:fall`
 `4:winter`
 ***
+![image](https://github.com/nirajdevpandey/Clean-code-Challenge/blob/master/plots/weather-vs-count.png)
+
 Which nonth had the highest demand 
+![image](https://github.com/nirajdevpandey/Clean-code-Challenge/blob/master/plots/month-vs-count.png)
 ***
-Which was the pick hour for renting the bike
+Which was the peak hour for renting the bike
+![image](https://github.com/nirajdevpandey/Clean-code-Challenge/blob/master/plots/hour-vs-count.png)
 ***
 What temperature was best preferred for the ride
+![image](https://github.com/nirajdevpandey/Clean-code-Challenge/blob/master/plots/temp-vs-count.png)
 ***
 
 
@@ -51,6 +61,8 @@ Let's see if there is any `missing` on `NA` values in the entire dataset. SO, we
 
 To understand how a dependent variable is influenced by features (numerical) is to get a correlation matrix between them. Lets plot a correlation plot between "count" and ["temp","atemp","humidity","windspeed"].
 
+![image](https://github.com/nirajdevpandey/Clean-code-Challenge/blob/master/plots/corelation_mat.png)
+
 >temp and humidity features has got positive and negative correlation with count respectively.Although the correlation between them are not very prominent still the count variable has got little dependency on "temp" and "humidity".
 
 >windspeed is not gonna be really useful numerical feature and it is visible from it correlation value with "count"
@@ -59,8 +71,9 @@ To understand how a dependent variable is influenced by features (numerical) is 
 
 >"Casual" and "Registered" are also not taken into account since they are leakage variables in nature and need to dropped during model building.
 ***
-### Visualizing Count Vs (Month,Season,Hour,Weekday,Usertype)
+#### Visualizing Count Vs (Month,Season,Hour,Weekday)
 Looking at the following plot we can get some useful information. 
+![image](https://github.com/nirajdevpandey/Clean-code-Challenge/blob/master/plots/count%20vs%20xyz.png)
 
 >It is quiet obvious that people tend to rent bike during summer season since it is really conducive to ride bike at that season.Therefore June, July and August has got relatively higher demand for bicycle.
 
