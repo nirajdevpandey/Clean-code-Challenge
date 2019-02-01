@@ -1,3 +1,6 @@
+![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg) ![Depfu](https://img.shields.io/depfu/depfu/example-ruby.svg) 
+![Travis (.org)](https://img.shields.io/travis/:user/:repo.svg) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
 ### Clean-code-Challenge
 The repository contains the solution of BlueYonder GmbH's challenge for data scientist position. Implementing a regression model on bike-sharing data-set to predict count of future rentals. The Code Quality matters a lot here therefore, Pep8 was followed to make script more pythonic :)
 ***
