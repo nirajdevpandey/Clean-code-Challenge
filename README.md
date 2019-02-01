@@ -115,7 +115,7 @@ After few more feature selection (see BlueYonder.py) We are all set to go for ch
 ### How to run
 ```
 1. clone this repository
-2. Go to the cloned repository. 
+2. Go to the cloned repository folder named clean_Regression 
 3. open cmd in the same repository
 4. type> python BlueYonder.py
 ```
