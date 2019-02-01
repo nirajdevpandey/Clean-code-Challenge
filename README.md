@@ -23,6 +23,10 @@ Here you can see what is inside the data
 ***
 #### Simple Visualization Of Variables number Count
 all 4 Seasons seem to have eqaul count
+`1:spring`
+`2:summer`
+`3:fall`
+`4:winter`
 ![image](https://github.com/nirajdevpandey/Clean-code-Challenge/blob/master/plots/season_count.png)
 ***
 It is quit obvious that there would be less holiday and more of normal day in 2 years of time. 
@@ -33,10 +37,16 @@ Working day is having sattistics. `remember` in plots `0:False`and `1:True`
 ![image](https://github.com/nirajdevpandey/Clean-code-Challenge/blob/master/plots/working_day-vs-count.png)
 ***
 Weather Count is as follows 
-`1:spring`
-`2:summer`
-`3:fall`
-`4:winter`
+* weather
+
+  1: Clear, Few clouds, Partly cloudy, Partly cloudy
+  
+  2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+  
+  3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+  
+  4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
+
 ***
 ![image](https://github.com/nirajdevpandey/Clean-code-Challenge/blob/master/plots/weather-vs-count.png)
 
