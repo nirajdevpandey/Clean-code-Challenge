@@ -130,5 +130,8 @@ After few more feature selection (see BlueYonder.py) We are all set to go for ch
 3. python BlueYonder.py
 
 ```
+Now you can see the top hundred prediction and the loss of the model. If you want to see the plot of error by a specific regression model please visit explore_data folder of this repository. 
 
-Now you can see the top hundred prediction and the loss of the model.
+![image](https://github.com/nirajdevpandey/Clean-code-Challenge/blob/master/plots/error.png)
+
+Thanks a lot
