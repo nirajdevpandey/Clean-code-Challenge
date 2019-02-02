@@ -11,7 +11,6 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_log_error
 from datetime import datetime
 import warnings
-
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 
