@@ -17,7 +17,7 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 def library_check():
     import numpy as np
     if np.__version__ != '1.15.4':
-        print("The project is developed on NumPy 1.1,4")
+        print("The project is developed on NumPy 1.15.4")
         print("you are running on numpy {} version".format(np.__version__))
     import pandas as pd
     if pd.__version__ != '0.23.4':
