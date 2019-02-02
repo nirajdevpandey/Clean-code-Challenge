@@ -87,7 +87,9 @@ def split_data(preprocessed_data):
     """
     x_train, x_test, y_train, y_test = train_test_split(
         preprocessed_data.drop('count', axis=1),
-        preprocessed_data['count'], test_size=0.2, random_state=42)
+        preprocessed_data['count'],
+        test_size=0.2,
+        random_state=42)
     return x_train, x_test, y_train, y_test
 
 
