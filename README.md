@@ -54,7 +54,7 @@ Working day is having sattistics. `remember` in plots `0:False`and `1:True`
 ***
 Weather Count is as follows 
 * weather
-  <font size="-1">
+
   1: Clear, Few clouds, Partly cloudy, Partly cloudy
   
   2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
@@ -62,7 +62,7 @@ Weather Count is as follows
   3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
   
   4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
-  </font>
+
 
 ![image](https://github.com/nirajdevpandey/Clean-code-Challenge/blob/master/plots/weather-vs-count.png)
 ***
