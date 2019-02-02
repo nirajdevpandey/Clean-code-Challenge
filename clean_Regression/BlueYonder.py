@@ -6,6 +6,7 @@
 
 import pickle
 import pandas as pd
+import sklearn
 from sklearn.cross_validation import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_log_error
@@ -93,6 +94,24 @@ def split_data(preprocessed_data):
     return x_train, x_test, y_train, y_test
 
 
+def check_input_shape(x_train, y_train):
+    """
+    This fuction will return 'Bad input shape' in case data is splitted wrongly
+    X normaly contain 2D shape while Y has 1D array shape
+    """
+    sklearn.utils.check_X_y(x_train, y_train,
+                            accept_sparse=False,
+                            dtype='numeric', order=None,
+                            copy=False, force_all_finite=True,
+                            ensure_2d=True, allow_nd=False,
+                            multi_output=False, 
+                            ensure_min_samples=1, 
+                            ensure_min_features=1,
+                            y_numeric=False, 
+                            warn_on_dtype=False,
+                            estimator=None)
+    
+
 def train_model(x_train, y_train):
     """
     Train the model on traning set
@@ -136,6 +155,7 @@ def main():
     data = process_datetime(data)
     data = one_hot_encoding(data, ['season', 'holiday', 'workingday', 'weather', 'month', 'hour', 'weekday'])
     x_train, x_test, y_train, y_test = split_data(data)
+    check_input_shape(x_train, y_train)
     train = train_model(x_train, y_train)
     test = test_model(saved_model, x_test)
     error = model_evaluation(test, y_test)
