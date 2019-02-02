@@ -1,7 +1,7 @@
 # coding: utf-8
 
-# Date = 27 January 2019
-# Author = Niraj Dev Pandey
+# Date __27 January 2019__
+# Author __Niraj Dev Pandey__
 
 
 import pickle
