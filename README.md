@@ -6,6 +6,7 @@ The repository contains the solution of BlueYonder GmbH's challenge for data sci
 
 This includes following - 
 >* Correct user defined fuction naming
+>* Choosing clear variable names
 >* Helper for all the functions 
 >* Spaces and punctiations as per PEP-8 standard 
 >* Raising clear exceptions 
