@@ -3,6 +3,16 @@
 
 ### Clean-code-Challenge
 The repository contains the solution of BlueYonder GmbH's challenge for data scientist position. Implementing a regression model on bike-sharing data-set to predict count of future rentals. The Code Quality matters a lot here therefore, PEP-8 was followed to make script more pythonic :)
+
+This includes following - 
+>* Correct user defined fuction naming
+>* Helper for all the functions 
+>* Spaces and punctiations as per PEP-8 standard 
+>* Raising clear exceptions 
+>* Etc.....
+
+
+
 ***
 Table of Contents
 =================
