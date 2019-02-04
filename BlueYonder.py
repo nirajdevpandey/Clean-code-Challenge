@@ -4,6 +4,7 @@ __Date__ = '02 February 2019'
 __author__ = 'Niraj Dev Pandey'
 
 import pickle
+import numpy as np
 import pandas as pd
 import sklearn
 from sklearn.cross_validation import train_test_split
@@ -15,15 +16,12 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 
 def library_check():
-    import numpy as np
     if np.__version__ != '1.15.4':
         print("The project is developed on NumPy 1.15.4")
         print("you are running on numpy {} version".format(np.__version__))
-    import pandas as pd
     if pd.__version__ != '0.23.4':
         print("The project is developed on Pandas 0.23.4")
         print("you are running on Panda {} version".format(pd.__version__))
-    import sklearn
     if sklearn.__version__ != '0.19.2':
         print("The project is developed on Sklearn 0.19.2")
         print("you are running on sklearn {} version".format(sklearn.__version__))
