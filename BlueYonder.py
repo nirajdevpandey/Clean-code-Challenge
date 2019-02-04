@@ -26,7 +26,7 @@ def library_check():
     import sklearn
     if sklearn.__version__ != '0.19.2':
         print("The project is developed on Sklearn 0.19.2")
-        print("you are running on keras {} version".format(sklearn.__version__))
+        print("you are running on sklearn {} version".format(sklearn.__version__))
     else:
         print("congratulations...! you already have all the correct dependencies installed")
 
